@@ -64,7 +64,7 @@ function Header() {
 function Menu() {
   return (
     <div>
-        <h2>Our Menu</h2>
+      <h2>Our Menu</h2>
       <Pizza />
       <Pizza />
       <Pizza />
@@ -84,7 +84,9 @@ function Pizza() {
     <div>
       <b>Pizza Spinaci</b>
 
-      <p><b>ingredients:</b> Tomato, mozarella, spinach, and ricotta cheese</p>
+      <p>
+        <b>ingredients:</b> Tomato, mozarella, spinach, and ricotta cheese
+      </p>
 
       <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
     </div>
